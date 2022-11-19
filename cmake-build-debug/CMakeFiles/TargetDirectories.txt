@@ -1,3 +1,0 @@
-C:/Users/zolin/University/Science_programming/Labs/Lab_2/Wrapper_engine/cmake-build-debug/CMakeFiles/Wrapper_engine.dir
-C:/Users/zolin/University/Science_programming/Labs/Lab_2/Wrapper_engine/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/zolin/University/Science_programming/Labs/Lab_2/Wrapper_engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
