@@ -1,0 +1,5 @@
+#pragma once
+#ifndef WRAPPER_ENGINE_ENGINE_H
+#define WRAPPER_ENGINE_ENGINE_H
+
+#endif //WRAPPER_ENGINE_ENGINE_H
