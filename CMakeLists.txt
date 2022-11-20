@@ -3,4 +3,4 @@ project(Wrapper_engine)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Wrapper_engine main.cpp Wrapper.h Engine.h)
+add_executable(Wrapper_engine main.cpp Wrapper.h Engine.h Engine.cpp)

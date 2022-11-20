@@ -35,24 +35,25 @@ public:
         return ((object->*funcName)(args[I]...));
     }
 
-    /*bool isExist(std::string name) {
-        for (auto& n : _args) {
+    bool isExist(std::string name) {
+        for (auto& arg : _args) {
+            std::string n = arg.first;
             if (n.compare(name) == 0)
                 return true;
         }
         return false;
     }
 
-    T execute(const argType<T>& args) {
-        std::vector<T> argsValue;
+    T execute(std::map<std::string, T> const& args) {
+        std::vector<T> argsVec;
         for (auto& arg : args) {
             if (!isExist(arg.first))
-                throw std::runtime_error("This command is not init");
+                throw std::runtime_error("WRAPPER: This command is not init");
 
-            argsValue.push_back(arg.second);
+            argsVec.push_back(arg.second);
         }
-        return _command(argsValue);
-    }*/
+        return _command(argsVec);
+    }
 
     Wrapper(Wrapper const&) = delete;
     Wrapper& operator=(Wrapper const&) = delete;
